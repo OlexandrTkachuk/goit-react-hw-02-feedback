@@ -7,4 +7,8 @@ export const Container = styled.div`
   margin: 0 auto;
   background-color: lightblue;
   border-radius: 10px;
+
+  :not(:last-child) {
+    margin-bottom: 40px;
+  }
 `;
